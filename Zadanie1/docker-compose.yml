@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kotlin-hello
+    command: ["gradle", "--no-daemon", "run"]
