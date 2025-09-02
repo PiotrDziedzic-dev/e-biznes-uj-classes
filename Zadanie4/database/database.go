@@ -19,12 +19,10 @@ func Connect() {
 		panic("failed to connect database")
 	}
 
-	// Włącz klucze obce dla SQLite
 	db.Exec("PRAGMA foreign_keys = ON")
 
 	DB = db
 
-	// Automigracja z przykładowymi danymi
 	DB.AutoMigrate(
 		&models.Category{},
 		&models.Product{},
