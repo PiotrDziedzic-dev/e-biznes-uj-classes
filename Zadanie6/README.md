@@ -1,4 +1,4 @@
-# Zadanie 6 – Testy (Cypress + BrowserStack + Go unit tests)
+# Zadanie 6 – Testy
 
 ## Opis projektu
 - **Cypress (E2E + API)** 
