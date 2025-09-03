@@ -45,7 +45,7 @@ docker compose up
 ## Docker Hub
 
 Obraz dostępny jest pod:
-👉 [piotrdziedzic/e-biznes-uj-classes](https://hub.docker.com/r/piotrdziedzic/e-biznes-uj-classes)
+[piotrdziedzic/e-biznes-uj-classes](https://hub.docker.com/r/piotrdziedzic/e-biznes-uj-classes)
 
 
 

@@ -2,8 +2,8 @@
 
 ## Opis projektu
 Projekt przedstawia prostą aplikację sklepową typu **full-stack**:
-- **Backend** napisany w Go (framework **gorilla/mux**, middleware **rs/cors**),
-- **Frontend** w React, budowany i serwowany przez **Nginx**,
+- **Backend** napisany w Go 
+- **Frontend** w React
 - Uruchamianie całości przez **Docker Compose**.
 
 Aplikacja pozwala:
