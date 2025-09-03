@@ -1,0 +1,26 @@
+# Health
+GET /health controllers.HealthController.ping
+
+
+# Categories
+GET /categories controllers.CategoriesController.list
+GET /categories/:id controllers.CategoriesController.get(id: Long)
+POST /categories controllers.CategoriesController.create
+PUT /categories/:id controllers.CategoriesController.update(id: Long)
+DELETE /categories/:id controllers.CategoriesController.delete(id: Long)
+
+
+# Products
+GET /products controllers.ProductsController.list
+GET /products/:id controllers.ProductsController.get(id: Long)
+POST /products controllers.ProductsController.create
+PUT /products/:id controllers.ProductsController.update(id: Long)
+DELETE /products/:id controllers.ProductsController.delete(id: Long)
+
+
+# Cart (koszyk)
+GET /cart controllers.CartController.list
+GET /cart/:id controllers.CartController.get(id: Long)
+POST /cart controllers.CartController.create
+PUT /cart/:id controllers.CartController.update(id: Long)
+DELETE /cart/:id controllers.CartController.delete(id: Long)
